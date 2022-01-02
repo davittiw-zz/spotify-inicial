@@ -9,6 +9,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
 }
 
 header{
@@ -49,7 +50,7 @@ header nav a{
 }
 
 header nav a:hover{
-    color: blue;
+    color: rgba(47, 209, 26, 0.822);
 }
 
 header div span:nth-child(1){
@@ -74,4 +75,68 @@ header .user img{
 header .user p{
     color: #fff;
     font-weight: 400;
+}
+
+/* sec1 */
+
+#sec1{
+    background-image: linear-gradient(#c763b5, #6c9ad3, #000);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec1 div:nth-child(1){
+    width: 400px;
+    color: #fff;
+}
+
+#sec1 div:nth-child(1) small{
+    font-weight: bold;
+
+}
+
+#sec1 div:nth-child(1) h1{
+    font-size: 80px;
+}
+
+#sec1 div:nth-child(1) h1 + p{
+    font-size: 24px;
+    font-weight: bold;
+    width: 300px;
+}
+
+#sec1 div:nth-child(1) button{
+    background-color: #1db954;
+    padding: 20px 32px;
+    border-radius: 500px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 300px;
+    margin: 32px 0;
+    cursor: pointer;
+}
+
+#sec1 div:nth-child(1) button:hover{
+    background-color: #1faa50;
+}
+
+#albums{
+    display: flex;
+    flex-wrap: wrap;
+    width: 770px;
+    justify-content: space-around;
+    height: min-content;
+}
+
+#albums img{
+    margin-bottom: 16px;
+    width: 240px;
+    height: 240px;
 }
