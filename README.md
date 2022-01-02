@@ -1,2 +1,2 @@
 # spotify-inicial
- tentando fazer a tela inicial e login do spotify
+ tentando fazer a ui do spotify
