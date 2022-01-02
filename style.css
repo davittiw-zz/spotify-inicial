@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,300;1,400&family=Poppins:wght@500&family=Roboto:wght@300;400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    padding: 20px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+    z-index: 1000;
+}
+
+header img{
+    width: 130px;
+    height: 40px;
+}
+
+header div:nth-child(1){
+    width: 78%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+header nav{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 400px;
+}
+
+header nav a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover{
+    color: blue;
+}
+
+header div span:nth-child(1){
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    
+}
+
+header .user{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-around;
+}
+
+header .user img{
+    border-radius: 50%;
+    width: 40px;
+}
+
+header .user p{
+    color: #fff;
+    font-weight: 400;
+}
