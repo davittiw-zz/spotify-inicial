@@ -144,7 +144,7 @@ header .user p{
 /* sec2 */
 
 #sec2{
-    padding: 148px 250px;
+    padding: 138px 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,7 +181,7 @@ header .user p{
     text-align: center;
     top: 16px;
     padding: 4px;
-    font-size: 12px;
+    font-size: 13px;
     color: #fff;
 }
 
@@ -223,3 +223,42 @@ header .user p{
     margin-top: -28px;
 }
 
+/* sec3 */
+
+#sec3{
+    padding: 100px 200px;
+}
+
+#sec3 h1{
+    font-size: 48px;
+}
+
+#sec3 h1 + div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+#sec3 .item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+    width: 33.33%;
+}
+
+#sec3 .item p{
+    font-weight: 400;
+}
+
+#sec3 .item a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: rgb(51, 212, 30);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#sec3 .item a:hover{
+    color: rgb(39, 163, 22);
+}
