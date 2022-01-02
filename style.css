@@ -140,3 +140,86 @@ header .user p{
     width: 240px;
     height: 240px;
 }
+
+/* sec2 */
+
+#sec2{
+    padding: 148px 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(90deg, #2c5e92 0%, #552f6d 80%);
+}
+#sec2 h1{
+    position: relative;
+    top: -50px;
+    margin: 30px;
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+}
+
+#sec2 #content{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.artistas, .musicas{
+    background-color: #9191f833;
+    width: 440px;
+    position: relative;
+    height: 230px;
+}
+
+.artistas p:nth-child(1), .musicas p:nth-child(1){
+    margin-left: -6px;
+    width: 150px;
+    background-color: rgba(33, 55, 110, 0.5);
+    position: relative;
+    text-align: center;
+    top: 16px;
+    padding: 4px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.artistas p:nth-child(2), .musicas p:nth-child(2){
+    background-color: #223974;
+    display: inline-block;
+    width: 250px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: -16px;
+    padding: 10px 12px 10px 29px;
+    z-index: 100;
+    position: inherit;
+    top: 32px;
+    color: #fff;
+}
+
+.artistas a, .musicas a{
+    position: absolute;
+    left: 24px;
+    bottom: 80px;
+    color: #1fe00d;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.artistas a:hover, .musicas a:hover{
+    color: #19cc08;
+}
+
+.artistas img, .musicas img{
+    width: 240px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: -10px;
+    margin-top: -28px;
+}
+
