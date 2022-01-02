@@ -77,6 +77,10 @@ header .user p{
     font-weight: 400;
 }
 
+header .user i{
+    color: #fff;
+}
+
 /* sec1 */
 
 #sec1{
@@ -227,6 +231,7 @@ header .user p{
 
 #sec3{
     padding: 100px 200px;
+    align-items: center;
 }
 
 #sec3 h1{
@@ -261,4 +266,97 @@ header .user p{
 
 #sec3 .item a:hover{
     color: rgb(39, 163, 22);
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    padding: 60px 200px 0px 200px;
+}
+
+footer p{
+    color: #fff;
+}
+
+footer img{
+    width: 130px;
+    height: 40px;
+}
+
+footer nav a{
+    display: flex;
+    flex-direction: column;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a i{
+    width: 40px;
+}
+
+footer .links-pai{
+    display: flex;
+    width: 1200px;
+    margin: auto 0 auto 198px;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+
+footer .link{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+footer .link p{
+    font-size: 12px;
+    color: #919496;
+    font-weight: bold;
+}
+
+footer .link nav{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .link nav a{
+    margin: 16px 0;
+    text-align: left;
+}
+
+footer .link nav:last-child{
+    margin: 16px 0px 0px 0px;
+}
+
+footer .redes nav{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    font-size: 29px;
+}
+
+.last-div{
+    position: relative;
+    box-sizing: border-box;
+    bottom: 0;
+    width: 50%;
+    font-size: 12px;
+}
+
+.last-div nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 128px 0 20px 0;
+}
+
+.last-div nav a {
+    color: #919496;
+}
+
+.last-div nav a:hover{
+    color: #1db954;
 }
